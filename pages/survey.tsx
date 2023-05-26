@@ -10,7 +10,7 @@ import axios from 'axios';
 export default function ProtectedPage() {
   const { data: session } = useSession()
   const [content, setContent] = useState()
-  const [surveylist, setSurveyist] = useState<object[]>([]);
+  const [surveylist, setSurveyist] = useState<Array<any>>(Array<any>);
 
   // Fetch content from protected route
   useEffect(() => {

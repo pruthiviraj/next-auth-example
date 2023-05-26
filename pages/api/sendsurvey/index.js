@@ -19,7 +19,7 @@ export default async (req, res) => {
       res.status(200).end();
   } catch ( error ) {
       console.log( error );
-      res.status(err).json({})
+      res.status(error).json({})
   }
   
   
