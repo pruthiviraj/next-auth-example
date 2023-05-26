@@ -23,6 +23,7 @@
     "next-auth": "latest",
     "pg": "^8.11.0",
     "pg-format": "^1.0.4",
+    "qs": "^6.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
